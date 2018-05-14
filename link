@@ -2,6 +2,7 @@
 HERE="."
 link()
 {
+    touch "$1"
     ln -sf "$1" "$HERE/"
 }
 link "$HOME/.vimrc"
