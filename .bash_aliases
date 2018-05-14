@@ -1,0 +1,1 @@
+/home/kallen/.bash_aliases
