@@ -1,0 +1,10 @@
+#!/bin/bash
+HERE="."
+link()
+{
+    ln -sf "$1" "$HERE/"
+}
+link "$HOME/.vimrc"
+link "$HOME/.bash_aliases"
+link "$HOME/.tmux.conf"
+link "$HOME/.vim"
