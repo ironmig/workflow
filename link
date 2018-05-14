@@ -2,10 +2,9 @@
 HERE="."
 link()
 {
-    touch "$1"
-    ln -sf "$1" "$HERE/"
+    cp -r "$HERE/$1" "$HOME/$1"
 }
-link "$HOME/.vimrc"
-link "$HOME/.bash_aliases"
-link "$HOME/.tmux.conf"
-link "$HOME/.vim"
+link ".vimrc"
+link ".bash_aliases"
+link ".tmux.conf"
+link ".vim"
